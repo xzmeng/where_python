@@ -1,0 +1,21 @@
+0.环境:
+    $ pip install -i https://pypi.douban.com/simple -r requirements.txt
+
+1.运行:
+    $ python main.py
+
+2(可选).如果需要重新初始化数据库:
+    $ python setup.py
+
+----------------------------------------
+简介:
+本项目使用SQLAlchemy+sqlite3来实现数据持久化.
+UI交互使用PyQt5.
+项目结构:
+where_python/
+    models.py   数据库中表的定义和初始化
+    setup.py    初始化数据库并且用测试数据填充
+    main.py     UI界面，布局，程序逻辑
+
+
+
